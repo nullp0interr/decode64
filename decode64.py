@@ -1,7 +1,7 @@
 from Cryptodome.Cipher import AES
 import base64
 
-print("--- AES Дешифратор ---")
+print("--- aes decryptor ---")
 
 # get key and data
 key_input = input("Enter a key (Base64): ")
