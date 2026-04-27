@@ -10,13 +10,9 @@ data_input = input("Enter a encode data (Base64): ")
 try:
     key = base64.b64decode(key_input)
     data = base64.b64decode(data_input)
-
     cipher = AES.new(key, AES.MODE_ECB)
-
     decrypted = cipher.decrypt(data).decode('utf-8').strip()
-
     print(f"\n✅ encoded text: {decrypted}")
-
 except ValueError as e:
     print(f"\n❌ error: uncorrect key or data not match with correct format, details: {e}")
 except Exception as e:
