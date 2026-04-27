@@ -18,9 +18,8 @@ You can install the required dependency using pip:
 pip install pycryptodomex
 ```
 
-## 👾 Author
+## 👨‍💻 Author
 
-```console
-root@kali:~# whoami
-nullp0inter
-```
+Crafted with 🖤 by **[nullp0inter](https://github.com/nullp0interr)**
+
+*Feel free to reach out, open issues, or contribute!*
