@@ -12,8 +12,8 @@ try:
     data = base64.b64decode(data_input)
     cipher = AES.new(key, AES.MODE_ECB)
     decrypted = cipher.decrypt(data).decode('utf-8').strip()
-    print(f"\n✅ encoded text: {decrypted}")
+    print(f"\nencoded: {decrypted}")
 except ValueError as e:
-    print(f"\n❌ error: uncorrect key or data not match with correct format, details: {e}")
+    print(f"\nerror: uncorrect key or data not match with correct format, details: {e}")
 except Exception as e:
-    print(f"\n❌ unhandle exception: {e}")
+    print(f"\nunhandle exception: {e}")
