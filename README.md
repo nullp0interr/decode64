@@ -16,3 +16,11 @@ This script requires Python 3 and the `pycryptodomex` library.
 You can install the required dependency using pip:
 ```bash
 pip install pycryptodomex
+```
+
+## 👾 Author
+
+```console
+root@kali:~# whoami
+nullp0inter
+```
